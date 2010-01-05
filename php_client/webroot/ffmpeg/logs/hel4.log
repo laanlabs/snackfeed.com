@@ -1,0 +1,11 @@
+-------------------------------
+COMMAND
+-------------------------------
+/usr/local/bin/ffmpeg -i '/var/www/smoothtube-public/v1/webroot/ffmpeg/hel4.flv' -an -ss '00:00:02' -t '00:00:02' -r '1' -vframes '1' /var/www/smoothtube-public/v1/webroot/ffmpeg/tmp/1206861715-47ef3f93deeba-!!@@!!-hel4-%d.jpg &> /var/www/smoothtube-public/v1/webroot/ffmpeg/tmp/1206861715-47ef3f93e3cd7.info
+-------------------------------
+FFMPEG OUTPUT
+-------------------------------
+-------------------------------
+RESULT
+-------------------------------
+Execute error. Output for file "/var/www/smoothtube-public/v1/webroot/ffmpeg/hel4.flv" was not found. No images were generated.

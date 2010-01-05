@@ -1,0 +1,52 @@
+body {
+  background:  url('/static/images/v3/bg/bg_top_99.png') repeat-x; 
+}
+		
+
+#nav-bar{
+	position: relative;
+	top: 29px;
+	height: 31px;
+	background:  url('/static/images/v3/nav/bk_bar.png') no-repeat; 
+	
+}
+
+#main-content {
+  line-height: 20px;
+  background-image:  url('/static/images/v3/bg/exposed_frame_tall.png');
+  background-repeat: no-repeat;
+/*  background-color: #eee;*/
+/*  background-position: -5px -3px;*/
+  float: left;
+/*  border: 1px solid red;*/
+  position: relative;
+  min-height: 200px;
+  left: -11px;
+  width: 715px;
+  top: 34px;
+  padding: 22px 0px 0px 0px;
+}
+
+
+
+#right-column {
+	
+	margin-top: 72px;
+	float: right;
+	width: 210px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

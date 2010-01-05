@@ -1,0 +1,12 @@
+//####################################################################################################
+// FACEBOOK
+//####################################################################################################
+define(FACEBOOK_KEY, '75dcd9ebe4fbf19a85d4d31aded42e01');
+define(FACEBOOK_SECRET, '34ea04b8fe77576f62cdf1c5700bb123');
+
+define(APP_CALLBACK_URL, 'http://'.APP_DOMAIN.'/facebook');
+define(APP_BASE_URL,  "http://apps.facebook.com/".APP_NAME);
+define(ASSET_BASE_URL, 'http://'.APP_DOMAIN);
+define(IMAGE_BASE_URL, ASSET_BASE_URL."/images");
+
+require_once APP_ROOT.'/facebook-platform/client/facebook.php';

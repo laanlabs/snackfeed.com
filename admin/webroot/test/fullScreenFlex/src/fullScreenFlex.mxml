@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:local="*"
+	layout="vertical" applicationComplete="init(event)">
+    
+    <mx:Script>
+        <![CDATA[
+            import flash.display.StageDisplayState;
+
+            private function init(evt:Event):void {
+                /* Set up full screen handler. */
+                Application.application.stage.addEventListener(FullScreenEvent.FULL_SCREEN, fullScreenHandler);
+                dispState = Application.application.stage.displayState;
+            }
+            
+            private function fullScreenHandler(evt:FullScreenEvent):void {
+                dispState = Application.application.stage.displayState + " (fullScreen=" + evt.fullScreen.toString() + ")";
+                if (evt.fullScreen) {
+                    /* Do something specific here if we switched to full screen mode. */
+                } else {
+                    /* Do something specific here if we switched to normal mode. */
+                }
+            }
+            
+            private function toggleFullScreen():void {
+                try {
+                    switch (Application.application.stage.displayState) {
+                        case StageDisplayState.FULL_SCREEN:
+                            /* If already in full screen mode, switch to normal mode. */
+                            Application.application.stage.displayState = StageDisplayState.NORMAL;
+                            break;
+                        default:
+                            /* If not in full screen mode, switch to full screen mode. */
+                            Application.application.stage.displayState = StageDisplayState.FULL_SCREEN;
+                            break;
+                    }
+                } catch (err:SecurityError) {
+                    // ignore
+                }
+            }
+            
+            private function hideIframe():void
+            {
+            	test1.height =1;
+            	test1.width = 1;
+            	
+            	
+            }
+            
+        ]]>
+    </mx:Script>
+    
+    <mx:String id="dispState" />
+    
+    <mx:Label text="width={Application.application.width}" />
+    <mx:Label text="height={Application.application.height}" />
+    <mx:Label text="displayState={dispState}" />
+    
+    <mx:Button label="Toggle fullscreen" click="toggleFullScreen()" />
+    <mx:Button label="Toggle fullscreen" click="hideIframe()" />
+    
+       <mx:TabNavigator id="tab"
+            width="600"
+            height="400">
+            <!-- -->
+            <local:IFrame id="test1"
+                label="Google"
+                source="http://www.hulu.com/playerembed.swf?eid=ZkzBBUdGaPwrseugSiXbKw"
+                width="30"
+                height="30"
+                
+                />
+                
+            <local:IFrame id="test2"
+                label="Yahoo"
+                source="http://www.yahoo.co.uk"
+                width="100%"
+                height="100%"
+                 
+                />
+             
+    </mx:TabNavigator> 
+    
+</mx:Application>

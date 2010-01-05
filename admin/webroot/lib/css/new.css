@@ -1,0 +1,224 @@
+
+#breadcrumb {
+	background:url('/lib/images/sidenav_title_sm.gif') bottom center;
+	padding: 5px; 
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#winMain {
+	background:white;
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#sButton a {
+	color: #000000;
+	font-size:10px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration: none;
+	border:1px outset silver;
+	background-color:#ececec;
+	width: 100px;
+	padding: 3px 5px;
+	margin: 1px;
+}
+#sButton a:hover {
+	background-color: #efefef;
+	color:#000000;
+	padding-left:4px;
+	border:1px inset #cccccc;
+}
+
+#smButton a {
+	color: #000000;
+	font-size:10px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration: none;
+	border:1px solid #b4b4b4;
+	background-color:#ececec;
+	padding: 2px;
+	margin: 1px;
+}
+#smButton a:hover {
+	background-color: #ffffcc;
+	border:1px solid #cccccc;
+}
+
+#smButton a.on {
+	background-color: #ffffcc;
+	border:1px solid #cccccc;
+}
+
+.fLabel {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 5 px;
+	padding-top: 5 px;
+
+}
+
+input.text {
+	border: 1px solid #000;
+	background: #eee;
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height:14pt;
+}
+
+input.radio  {
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+select { 
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	border: 1px solid #000;
+	background: #eee;
+}
+
+#tTab { margin-left: 25px; }
+#tTab a {
+	color: #000000;
+	font-size:10px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration: none;
+	border:1px outset silver;
+	border-bottom-width: 0px;
+
+	background-color:#f4f4f4;
+	width: 100px;
+	padding: 3px 5px;
+
+}
+#tTab a:hover {
+	background-color: #b5b5b5;
+	color:#000000;
+	padding-left:4px;
+	border:1px inset #cccccc;
+	border-bottom-width: 0px;
+}
+
+#tTab a.on {
+	background-color: #b5b5b5;
+	color:#000000;
+	padding-left:4px;
+	border:1px inset #cccccc;
+	border-bottom-width: 0px;
+}
+#zTable { 
+	width: 94%; 
+	margin:5px;
+	border: solid 1px #666; 
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+#zTable .even {	
+	background: #eee; 
+	border: solid 1px #666;	
+	}
+	
+#zTable	td {
+	border: 1px solid #CCC;
+	padding: 0 0.5em;
+	 cursor: hand;
+	}
+
+#zTable	th {
+	font-size:10pt;
+	font-family:verdana;
+	text-align:left;
+	border: 1px solid #CCC;
+	padding: 0 0.5em;
+	background: #FFC;
+	}	
+	
+#zTable	.hilight {
+	background: #FFC; 
+	}	
+
+
+#zTable tr:hover
+{
+	background: #ccc;
+}
+
+#messageWin{
+	position: absolute;
+	width: 150px;
+	border: 2px solid black;
+	display: block;
+	padding: 10px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+
+#formTable  {
+	width:700px;
+	font-family: verdana, lucida, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+	overflow: auto;
+
+}
+
+#formTable th,#formTable td {
+	font-size: 10pt;	
+}
+#formTable th {
+	text-transform: uppercase;
+	font-size: 10pt;
+	font-weight:bold;
+	background-color: #ffffcc;
+	text-align: center;
+}
+#formTable tbody th,#formTable td {
+
+}
+
+
+#formTable tfoot td {
+
+	text-align: center;
+	height: 30px;
+}
+
+.fTitle {
+ 	color: #000000;
+	font-size:10px;
+	font-family:verdana;
+	text-align: right;
+	font-weight: bold;
+}
+
+
+.cell
+{
+	background:#fff; 
+	width:100%;
+	border:1px solid black;
+	padding:2;
+	text-align:left
+}
+
+.cell:hover
+{
+	background:#ffffcc; 
+}
+
+
+	

@@ -1,0 +1,509 @@
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>test</title>
+	  <script src="/static/js/prototype.js" type="text/javascript"></script>
+	<script src="/static/js/scriptaculous.js" type="text/javascript"></script>
+	<script src="/static/js/swfobject.js" type="text/javascript" charset="utf-8"></script>
+
+<style>
+	
+
+
+	html,body{
+      margin:0px;
+      padding:0px;
+      height:100%;
+      border:none;
+ 		min-width:600px;   
+		overflow: hidden;
+		font-family: arial;
+		font-size: 12px;
+   }
+   
+	a
+	{
+		color: #000;
+	}
+
+	a:hover
+	{
+		color: #ff0000;;
+	}
+
+	
+	img { border:none; padding:0; margin:0; }
+    
+	#list {
+      margin:0;
+      margin-top:10px;
+      padding:0;
+      list-style-type: none;
+      width:100%;
+    }
+    #list li {
+      margin:0;
+	  background: #fff;
+      margin-bottom:4px;
+      padding:5px;
+      border:1px solid #888;
+      cursor:move;
+    }
+
+	#col1
+	{
+		float: left;
+		min-width: 200px;
+		height: 100%; width: 33%;  background: #666; ; 
+	}
+
+	#col2
+	{
+		float: left;
+		height: 100%; width: 34%;  background: #ccc; 
+	}
+
+	#col3
+	{
+		float: left;
+		background: #666; 
+		height: 100%; width: 33%; ;	
+	}
+	
+	
+	ul {
+		list-style: none none;
+		font-size: 10pt;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		border: 1px solid #000000;
+		margin: 0.3em;	
+		padding: 0.4em;
+		background: #ccc;
+		display: block;
+
+	}
+
+	li.thumbList
+	{
+			background: #2cbc2c;
+			min-height: 60px;	
+	}
+
+
+	li.sortable {
+		cursor: move;
+	 }
+
+	.hoverList {
+		background: #bc2c2c;
+		cursor: move;
+	}
+
+	.img_left
+	{
+		float: left;
+		width: 80px;
+		height: 60px;
+		margin-right: 3px;
+		border: 1px solid #000;
+	}
+	
+	.smallText
+	{
+		font-size: 9px;
+	}
+
+
+	#showList .btnRemove
+	{
+		display: none;
+	}
+	
+	#channelList .btnRemove
+	{
+		display: visible;
+	}
+	
+	#showList .btnAdd
+	{
+		display: visible;
+	}
+	
+	#channelList .btnAdd
+	{
+		display: none;
+	}
+	
+	
+
+</style>
+</head>
+<body>
+
+
+
+<div id="col1" style="text-align: left">
+	
+	<div align="center">
+	<div id="playerHolder" style="width: 180px; height: 150px; border: 1px solid red; background: #999; margin: 10px" >
+	 <div id="swfHolder" >	preview holder</div>
+	</div>
+	
+	<div style="background: #ccc; color: #fff; height: 28px;">
+		<div id="name">
+			
+			<a href="javascript:SortableLists.killSWF()">stop</a>
+			
+		</div>
+		
+	</div>
+	
+	</div>
+	
+<div style="padding: 10px">
+		DEBG:
+		<a href="javascript:SortableLists.loadChannelsList()">load channels</a>
+		
+
+		
+		<a href="javascript:SortableLists.loadProgramsList()">load programs</a>
+	
+	
+</div>
+
+	
+	
+<div id='programWrapper' style="height:50%;  width: 100%; border: 1px solid #000; ">
+	<div style="background: #000; color: #fff; height: 28px;  ">
+		<div style="padding: 5px; float: left">
+			Channel Shows 
+				
+		</div>
+	</div>
+	<ul id='programList' style="height: 100%; width: 100%; overflow-y: scroll; overflow-x: hidden ">
+	</ul>
+</div>
+
+	
+</div>
+
+<div id="col2">
+	
+	<div style="background: #999; color: #fff; height: 5%;  ">
+		<div style="padding: 5px">
+			Show Videos
+		</div>
+	</div>
+	<div id='showWrapper' style="height: 95%;  width: 100%; border: 1px solid #000; ">
+		<ul id='showList' style="height: 100%; width: 100%; overflow-y: scroll; overflow-x: hidden ">
+		</ul>
+	</div>
+
+</div>
+<div id="col3">
+	<div style="background: #000; color: #fff; height: 5%;  ">
+		<div style="padding: 5px; float: left">
+			Channel Videos 
+				
+		</div>
+		<div style="padding: 5px; float: right">
+				<a style="color: #fff" href="javascript:SortableLists.saveChannelsList()">save channel order</a>
+		</div>
+	</div>
+	<div id='channelWrapper' style="height: 95%;  width: 100%; border: 1px solid #000; ">
+		<ul id='channelList' style="height: 100%; width: 100%; overflow-y: scroll; overflow-x: hidden ">
+		</ul>
+	</div>
+</div>
+
+
+
+
+	<div id="feedback">...</div>
+
+	<script type="text/javascript">
+
+	var SortableLists = {
+	
+		channel_id : '27edaf0c-4cc6-102b-94a1-001c23b974f2',
+		playerSwf : null,
+		flvPlayer: '/static/swfs/simplePlayer.swf',
+		
+		
+		loadProgramsList: function()
+		{
+			var ajax_uri = 'http://www.snackfeed.com/channels/get_programs?&json&channel_id=' + SortableLists.channel_id
+			console.log('here: ' + ajax_uri)
+
+			new Ajax.Request(ajax_uri, { method:'get',
+				onSuccess: function(transport){
+			    	var json = transport.responseText.evalJSON();
+			  		//console.log(json)
+
+					var name = 'programList';
+					//console.log(list)
+					var container = $(name);
+					container.innerHTML = ''
+					var attrs = { id: 'program', 'class': 'sortable' };
+
+					for ( var t=0; t < json.programs.length; t++ ) 
+					{
+						//console.log( json.videos[t].title )
+						var text = json.programs[t].title;
+						//text += '<a href="javascript:SortableLists.loadShowList()">load</a>'
+						//console.log(id);
+						attrs.id = 'program_' + json.programs[t].show_id;
+						attrs.onClick = "SortableLists.loadShowList('" + json.programs[t].show_id + "' )";
+						container.insert({ bottom: Builder.node('li', attrs, text) });
+					}
+
+					SortableLists.createSortables('programList');
+
+				}
+
+			  });
+		},
+		
+		
+		loadShowList: function(show_id)
+		{
+	
+	
+			var ajax_uri = 'http://www.snackfeed.com/channels/get_show_videos?&json&show_id=' + show_id + '&channel_id=' + SortableLists.channel_id
+			console.log('here: ' + ajax_uri)
+
+			new Ajax.Request(ajax_uri, { method:'get',
+				onSuccess: function(transport){
+			    	var json = transport.responseText.evalJSON();
+			  		//console.log(json)
+
+					var name = 'showList';
+					//console.log(list)
+					var container = $(name);
+					container.innerHTML = ''
+					var attrs = { id: 'shows', 'class': 'draggable' };
+					
+					
+				
+
+					for ( var t=0; t < json.videos.length; t++ ) 
+					{
+	
+
+						//use template function to create element
+						var result_div = SortableLists.makeLIE( json.videos[t], 'show');
+						container.insert({ bottom: result_div });
+					}
+
+					
+				}
+
+			  });	
+	
+		},
+		
+		makeLIE: function(data, type)
+		{
+			var attrs = { id: 'shows', 'class': 'thumbList' };
+					
+			var text = data.detail;
+			attrs.id = 'video_' + data.video_id;
+			
+			var addClick  = "javascript:SortableLists.addVideoToChannel('" + data.video_id + "' )";
+			var removeClick  = "javascript:SortableLists.removeVideoFromChannel('" + data.video_id + "' )";
+
+			
+			var playClick = "javascript:SortableLists.playVideo('" + data.video_id + "' )";
+
+			var result_div = Builder.node('li', attrs, [
+				Builder.node('img', { src: data.thumb, class: 'img_left'}),
+			    Builder.node('div', {class: 'heading'}, [
+			      Builder.node('a', {href: playClick }, data.title.truncate(45))
+			    ]),
+			    Builder.node('text', data.date_pub),
+				Builder.node('text', {class: 'smallText'}, ' - ' + text.truncate(80) ),
+				Builder.node('a', {id: 'add_' + data.video_id , href: addClick, class: 'btnAdd'  }, 'add'),
+				Builder.node('a', {id: 'add_' + data.video_id , href: removeClick, class: 'btnRemove' }, 'remove')
+			  ]);
+							
+								
+			return result_div;
+			
+		},
+
+
+		removeVideoFromChannel: function(video_id)
+		{
+			
+				var ajax_uri = 'http://www.snackfeed.com/channels/remove_video?&nosegments&user_id=&json&channel_id=' + SortableLists.channel_id + '&video_id=' + video_id
+				//console.log('here: ' + ajax_uri)
+
+				new Ajax.Request(ajax_uri, { method:'get',
+					onSuccess: function(transport){
+				    		SortableLists.loadChannelsList();
+					}
+
+				  });
+			
+			
+			
+			
+			
+		},
+
+		addVideoToChannel: function(video_id)
+		{
+		
+			
+			var container = $('channelList');
+			var result_div = $('video_' + video_id)
+			result_div.onclick = '';
+					
+			container.insert({ top: result_div });
+			
+			//make all sortable
+			SortableLists.createSortables('channelList');
+			
+			
+		},
+
+		
+		saveChannelsList: function()
+		{
+		
+			poststring = 'channel_id=' + SortableLists.channel_id + '&';
+			poststring += Sortable.serialize('channelList');
+			
+			//console.log(poststring)
+			
+			new Ajax.Request("/channels/save_order_by", {  
+			             method: "post",  
+			             parameters: { data: poststring }  
+			         })
+			
+			
+			
+		},
+
+
+
+
+
+
+		loadChannelsList: function(){
+			
+			
+			var ajax_uri = 'http://www.snackfeed.com/channels/get_details_and_videos_for?&nosegments&user_id=&json&channel_id=' + SortableLists.channel_id
+			//console.log('here: ' + ajax_uri)
+
+			new Ajax.Request(ajax_uri, { method:'get',
+				onSuccess: function(transport){
+			    	var json = transport.responseText.evalJSON();
+			  		//console.log(json)
+
+					var name = 'channelList';
+					//console.log(list)
+					var container = $(name);
+					container.innerHTML = ''
+					var attrs = { id: 'video_', 'class': 'sortable' };
+
+					for ( var t=0; t < json.videos.length; t++ ) 
+					{
+						var result_div = SortableLists.makeLIE( json.videos[t], 'video');
+						container.insert({ bottom: result_div });
+					}
+
+					SortableLists.createSortables('channelList');
+
+				}
+
+			  });
+			
+			
+		},
+
+
+		createSortables: function (name) {
+
+			Position.includeScrollOffsets = true
+				Sortable.create(name,
+					{
+						ghosting: true,
+						hoverclass: 'hoverList'
+					});
+		
+		},
+		
+		
+		
+		playVideo:function( video_id )
+		{
+			SortableLists.killSWF();
+			
+			_swfContent = SortableLists.flvPlayer + "?id=" + video_id
+
+			var flashvars = {
+				//url: _url,
+				stage_width: 180,
+				stage_height: 150
+			};
+
+			var params = {
+
+				menu: "false",
+				allowFullScreen: "true",
+				allowscriptaccess : "always",
+				bgcolor: "#000000",
+				scale : "noorder" , 
+				salign: "t"
+			};
+
+			var attributes = {
+			  id: "flashVideoPlayer", 
+			  name: "flashVideoPlayer"
+			};
+
+		console.log(_swfContent)
+			SortableLists.playerSwf = swfobject.embedSWF( _swfContent ,  "swfHolder", "180", "150", "9.0.0", "/images/swf/expressInstall.swf", flashvars, params, attributes);
+
+
+
+		},
+		
+		
+		killSWF:function()
+		{
+			var d = document.getElementById('playerHolder');
+			//var olddiv = document.getElementById("swfHolder");
+			d.innerHTML = "";
+			var ix = document.createElement('div');
+			ix.id = "swfHolder"
+			ix.innerHTML = "loading..."
+			d.appendChild(ix);
+
+		},
+		
+	};
+
+	document.observe("dom:loaded", loadList);
+
+
+
+	function loadList(event)
+	{
+
+
+		SortableLists.loadChannelsList();
+		SortableLists.loadProgramsList();		
+	}
+	
+
+	</script>
+
+
+</body>
+</html>

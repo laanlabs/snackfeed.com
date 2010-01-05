@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<show id="xxxxxxx">
+	<title>title</title>
+	<desc>desc</desc>
+	<thumb>/images/thumb_1.jpg</thumb>
+	<videos>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>																										
+	</videos>
+</show>

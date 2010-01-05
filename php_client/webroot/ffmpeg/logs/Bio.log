@@ -1,0 +1,11 @@
+-------------------------------
+COMMAND
+-------------------------------
+/usr/local/bin/ffmpeg -i '/var/www/smoothtube-public/v1/webroot/ffmpeg/Bio.flv' -an -ss '00:00:02' -t '00:00:02' -r '1' -vframes '1' /var/www/smoothtube-public/v1/webroot/ffmpeg/tmp/1206849176-47ef0e98cd41c-!!@@!!-Bio-%d.gif &> /var/www/smoothtube-public/v1/webroot/ffmpeg/tmp/1206849176-47ef0e98d7058.info
+-------------------------------
+FFMPEG OUTPUT
+-------------------------------
+-------------------------------
+RESULT
+-------------------------------
+Execute error. Output for file "/var/www/smoothtube-public/v1/webroot/ffmpeg/Bio.flv" was not found. No images were generated.

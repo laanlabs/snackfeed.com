@@ -1,0 +1,137 @@
+
+		body {
+		  background:  url('/static/images/splash/bg_big_green.png') repeat-x; 
+		  line-height: 20px;
+		}
+		
+		#main-content{
+			
+			min-height: 400px;
+			padding-top: 40px;
+			width: 665px;
+			position: relative;
+			display: block;
+			clear: both;
+		}
+
+		#topbar {
+			position: relative;
+			height: 210px;
+			width: 100%;
+			padding-bottom: 4px;
+			
+		}
+
+
+		#top-tab {
+			position:absolute;
+			right: 0px;
+			height: 35px;
+		}
+		
+		#top-tab-left {
+			height: 35px;
+			width: 6px;
+			background: url('/static/images/v3/splash/top_tab_left.png') no-repeat;
+			float: left;
+			
+		}
+		
+		#top-tab-center {
+			height: 35px;
+			background: #fff;
+			border-bottom: 1px solid #cfcfcf;
+			float: left;
+			
+		}
+		
+		#top-tab-right {
+			height: 35px;
+			width: 6px;
+			background: url('/static/images/v3/splash/top_tab_right.png') no-repeat;
+			float: left;
+			
+		}
+			
+		#top-tab-links {
+			float:left; position:relative; top:7px; 
+			padding-left: 10px;
+			padding-right: 2px;
+			text-align: center;
+		}	
+		
+		#top-tab-links a {
+			color: #999;
+			display: block;
+			float: left;
+			padding-right: 10px;
+			
+		}
+		
+		#logo {
+		    position: absolute;
+		    top: 90px;
+			 left: 0px;
+			 width: 300px;
+			 height: 60px;
+		}
+		
+		#big-quote {
+		    position: absolute;
+		    top: 50px;
+			 left: 385px;
+		}
+		
+		#exposed-frame {
+		    position: absolute;
+		    top: 250px;
+			 left: -26px;
+		}
+		
+		#right-column {
+			
+			margin-top: 70px;
+			float: right;
+			width: 220px;
+			
+		}
+		
+		#customize {
+			background: url('/static/images/splash/customize_l.png') no-repeat;
+			height: 60px;
+			width: 690px;
+		}
+		
+	
+.top-left, .top-right, .bottom-left, .bottom-right { 
+	background-image: url('/static/images/v3/rounded_grey.png'); 
+	height: 12px;    
+	font-size: 2px;  
+	}                
+.top-left, .bottom-left {           
+	margin-right: 12px; 
+	}                   
+.top-right, .bottom-right {         
+	margin-left: 12px; 
+	margin-top: -12px; 
+	}                               
+.top-right {                        
+	background-position: 100% 0;    
+	}                               
+.bottom-left  {                     
+	background-position: 0 -13px;   
+	}                               
+.bottom-right {                     
+	background-position: 100% -13px;
+	}
+.inside {   
+	position: relative;                        
+	border-left: 9px solid #f4f4f4; 
+	border-right: 9px solid #f4f4f4;
+	background: #f4f4f4;            
+	color: #000;                          
+	}                              
+.notopgap    { margin-top: 0; }    
+.nobottomgap { margin-bottom: 0; }
+	
+

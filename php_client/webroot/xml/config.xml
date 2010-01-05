@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<base_url>http://v1.smoothtube.com</base_url>
+	<channels_url>/channels/get_channel_list</channels_url>
+	<channel_detail_url>/channels/get_details_and_videos_for</channel_detail_url>
+	<shows_url>/shows/get_show_list</shows_url>
+	<show_detail_url>/shows/get_details_and_videos_for</show_detail_url>
+	<favorites_url>/shows/get_show_list</favorites_url>
+	<inbox_url>/users/get_inbox</inbox_url>
+	<users_list>/users/get_users</users_list>
+	<message_send>/users/send_message</message_send>
+</config> 

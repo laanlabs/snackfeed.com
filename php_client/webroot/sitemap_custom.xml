@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns:video="http://www.google.com/schemas/sitemap-video/1.0" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://snackfeed.com</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://snackfeed.com/public</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>  
+  <url>
+    <loc>http://snackfeed.com/public/lastest</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>   
+  <url>
+    <loc>http://snackfeed.com/public/trends</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>     
+  <url>
+    <loc>http://snackfeed.com/public/friendfeed</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>  
+   <url>
+    <loc>http://snackfeed.com/public/twitter</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>   
+  <url>
+    <loc>http://snackfeed.com/shows/ls</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+   <url>
+    <loc>http://snackfeed.com/main/content/lowdown</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url> 
+</urlset>

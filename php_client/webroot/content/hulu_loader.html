@@ -1,0 +1,100 @@
+<html lang="en">
+	
+	
+	<!-- saved from url=(0014)about:internet -->
+	<html lang="en">
+
+	<!-- 
+	Smart developers always View Source. 
+
+	This application was built using Adobe Flex, an open source framework
+	for building rich Internet applications that get delivered via the
+	Flash Player or to desktops via Adobe AIR. 
+
+	Learn more about Flex at http://flex.org 
+	// -->
+
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script type="text/javascript" src="swfobject.js"></script>
+
+
+	<style type="text/css">
+		/* hide from ie on mac \*/
+		html {
+			height: 100%;
+			overflow: hidden;
+		}
+
+		#flashcontent {
+			height: 100%;
+		}
+		/* end hide */
+		body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+		}
+	</style>
+
+
+
+
+
+	<script language="JavaScript" type="text/javascript">
+
+	function getUrlVars()
+	
+	{
+	
+		var vars = [], hash;
+	
+		var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+	
+		for(var i = 0; i < hashes.length; i++)
+	
+		{
+	
+			hash = hashes[i].split('=');
+	
+			vars.push(hash[0]);
+	
+			vars[hash[0]] = hash[1];
+	
+		}
+	
+		return vars;
+	}
+
+	</script>
+	</head>
+	
+<body scroll="no">
+
+	<div id="flashcontent">
+			<strong>You need to upgrade your Flash Player</strong>
+			This is replaced by the Flash content. 
+			Place your alternate content here and users without the Flash plugin or with 
+			Javascript turned off will see this. Content here allows you to leave out <code>noscript</code> 
+			tags. Include a link to <a href="fullpage.html?detectflash=false">bypass the detection</a> if you wish.
+		</div>
+		<script type="text/javascript">
+			// <![CDATA[
+			var so = new SWFObject("hulu_loader.swf", "hulu_loader", "100%", "100%", "8", "#000000");
+			so.addVariable("vUrl", getUrlVars()['vUrl'] );
+			so.addParam("scale", "noscale");
+			so.addParam("allowScriptAccess", "always");
+			so.addParam("allowFullScreen", "true");
+			so.write("flashcontent");
+			//  getUrlVars()['vUrl']
+			// ]]>
+		</script>		
+  
+
+
+</body>
+
+
+</html>

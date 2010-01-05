@@ -1,0 +1,100 @@
+/* -------------------------------------------------------------- 
+   
+   typography.css
+   * Sets up some sensible default typography.
+  
+   Based on work by:
+   * Nathan Borror     [playgroundblues.com]
+   * Jeff Croft        [jeffcroft.com]
+   * Christian Metts   [mintchaos.com]
+   * Wilson Miner      [wilsonminer.com]
+   * Richard Rutter    [clagnut.com]
+   
+   Read more about using a baseline here:
+   * alistapart.com/articles/settingtypeontheweb
+  
+-------------------------------------------------------------- */
+
+/* This is where you set your desired font size. The line-heights 
+   and vertical margins are automatically calculated from this. 
+   The percentage is of 16px (0.75 * 16px = 12px). */
+   
+body { font-size: 87.5%; line-height:1.5714em;}
+
+
+/* Default fonts and colors. 
+   If you prefer serif fonts, remove the font-family 
+   on the headings, and apply this one to the body:
+   font: 1em Georgia, "lucida bright", "times new roman", serif; */
+   
+body { 
+  color: #333; 
+  font-family: Georgia, "lucida bright", "times new roman", serif;
+}
+h1,h2,h3,h4,h5,h6 { 
+  color: #222; 
+  font-family: Georgia, "lucida bright", "times new roman", serif;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; }
+
+h1 { font-size: 1.7143em; line-height: 1.8333;}
+h2 { font-size: 1.4286em; line-height: 1.1;}
+h3 { font-size: 1.2857em; line-height: 1.2222; }
+h4 { font-size: 0.8571em; line-height: 1.8333;}
+h5 { font-size: 0.8571em; line-height: 1.8333;text-transform:uppercase;}
+h6 { font-size: 0.8571em; line-height: 1.8333; font-weight:bold;text-transform:uppercase;}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5714em 0;}
+p.subscribe{text-align:center;margin-top:-1.5714em;}
+p.postFooter{font-size: 0.8571em; line-height: 1.8333;margin:-1.5714em 0 1.5714em 0;}
+.pullquote p{font-size: 20px; line-height: 1.1em;}
+
+a img {margin: 1.5714em 0 0 0; padding:3px 4px 3px 4px;border:solid 1px #aaa; }
+img       {margin: 1.5714em 0 0 0; padding:3px 4px 3px 4px;border:solid 1px #aaa; }
+img.left{margin: .4em 4px 1px 0;float:left;}
+img.right{margin: .4em 0 1px 4px;float:right;}
+img.icon{margin:0 0 -2px 0;padding: 0;border:none;}
+img.project{float:left;margin:0 3px -5px 0;border:solid 1px #555;}
+
+ul, ol      { margin:0 1.5714em 1.5714em 1.5714em; }
+ul          { list-style-type: disc; }
+ol          { list-style-type: decimal; }
+dl          { margin: 0 0 1.5714em 0; }
+dl dt       { font-weight: bold; }
+dd          { margin-left: 1.5714em;}
+
+abbr, 
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin-top: 1.5714em; font-style: italic; }
+del         { color:#666; }
+
+a:focus, 
+a:hover     { color: #CF4602; }
+a           { color: #151515; text-decoration: underline; font-weight: bold;}
+a.title {font-weight: normal;text-decoration:none;}
+
+blockquote  { margin: 1.5714em; color: #666; font-style: italic; }
+strong      { font-weight: bold; }
+em,dfn      { font-style: italic;}
+dfn         { font-weight: bold; }
+/*pre,code    { margin: 1.5714em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'monotype.com', 'lucida console', monospace; line-height: 1; } */
+tt          { display: block; margin: 1.5714em 0; line-height: 1; }
+
+
+/* Some default classes
+-------------------------------------------------------------- */
+
+.small      { font-size: 0.8571em; line-height: 1.8333; font-weight:normal;}
+.quiet      { color: #444; }
+
+

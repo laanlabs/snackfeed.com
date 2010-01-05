@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<channel id="xxxxxxxxx">
+		<title>Comedy Central</title>
+		<desc>Share videos with your friends by adding things to your channel.</desc>
+		<thumb>/images/thumb_1.jpg</thumb>
+		<videos>
+			<video id="xxxxxxxx">
+				<title>Daily Show Feb 26th</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_2.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>Colbert Report Tuesday 23rd</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_1.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>vid 1</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_2.jpg</thumb>
+			</video>			
+		</videos>
+	</channel>
+	<channel id="xxxxxxxxx">
+		<title>The Office</title>
+		<desc>Michael is a boss who does things on this show. Watch him as he does those things I just mentioned. Lorem ipsum</desc>
+		<thumb>/images/thumb_2.jpg</thumb>
+		<videos>
+			<video id="xxxxxxxx">
+				<title>Episode 1</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_2.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>Episode 2</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_1.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>Episode 3</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_1.jpg</thumb>
+			</video>			
+		</videos>
+	</channel>
+	<channel id="xxxxxxxxx">
+		<title>What You Might Like</title>
+		<desc>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus interdum. In quis dui quis odio</desc>
+		<thumb>/images/thumb_3.jpg</thumb>
+		<videos>
+			<video id="xxxxxxxx">
+				<title>Crazy Baby</title>
+				<desc>What a crazy baby</desc>
+				<thumb>/images/thumb_small_1.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>Will Ferrel SNL</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_2.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>TED Talks</title>
+				<desc>ertewrigjiwej et gwerg wer gwe rgwer gwer g werg werg ewrg wer g </desc>
+				<thumb>/images/thumb_small_1.jpg</thumb>
+			</video>			
+		</videos>
+	</channel>
+	<channel id="xxxxxxxxx">
+		<title>Todays Headlines</title>
+		<desc>desc</desc>
+		<thumb>/images/thumb_1.jpg</thumb>
+		<videos>
+			<video id="xxxxxxxx">
+				<title>Bush backs peace treaty</title>
+				<desc>Today president Bush agreed to sign the treaty for ending the embargo on donuts to western yugoslovia.</desc>
+				<thumb>/images/thumb_small_1.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>vid 1</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_2.jpg</thumb>
+			</video>
+			<video id="xxxxxxxx">
+				<title>vid 1</title>
+				<desc>desc</desc>
+				<thumb>/images/thumb_small_2.jpg</thumb>
+			</video>			
+		</videos>
+	</channel>
+
+</channels>

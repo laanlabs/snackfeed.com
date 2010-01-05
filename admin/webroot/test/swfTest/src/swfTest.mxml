@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="vertical"
+	backgroundColor="#ffffff"
+	creationComplete="init()"
+	width="1200"
+	 height="800">
+	
+	<mx:Script>
+		<![CDATA[
+		
+			import mx.controls.SWFLoader;
+			import flash.events.*
+        	import flash.net.URLRequest;
+        	import flash.display.DisplayObjectContainer;
+        	import flash.display.AVM1Movie;
+			
+			Security.allowDomain("*");
+			
+			
+			[Bindable] private var useNewAppDomain:Boolean = false;  
+			
+			
+			var loader:SWFLoader = new SWFLoader();
+			private var swfContent:MovieClip;
+			private var c:MovieClip;
+			  import flash.net.LocalConnection;                 
+  			import mx.controls.Alert;
+  			private var conn:LocalConnection;
+			
+			
+			
+			private function init():void {
+				
+				loader.scaleContent = "true";
+				loader.scaleX = .3;
+				loader.scaleY = .3;
+				loader.height = 320;
+				loader.width = 240;
+				loader.addEventListener(Event.COMPLETE,loadHandler);
+				loader.trustContent = true;
+				
+				container.addChild(loader);
+				
+				
+				loader.loaderContext = new LoaderContext(false, new ApplicationDomain());
+				loader.load('http://www.hulu.com/playerembed.swf?eid=ZkzBBUdGaPwrseugSiXbKw');	
+				
+			}
+			
+			private function loadHandler(e:Event):void{
+            		trace("loadHandler fired");
+            		//swfContent = e.target.content;
+            		 //c = loader.content as MovieClip;
+            		 //container.addChild(c);
+            		//var externalMovie:AVM1Movie = AVM1Movie(loader.content); // cast 'DisplayObject' to 'MovieClip'
+					//stage.addChild(externalMovie); // add your swf directly to the stage 
+					//container.addChild(externalMovie);
+					//externalMovie.call("stop();");
+					
+            		 vDebug.text = loader.content.toString();
+            		 
+            		
+            		 
+   			}		 
+   			
+
+   			
+			
+			private function remove():void {
+		
+		
+		
+				var nc:NetConnection = new NetConnection();
+			var connected:Boolean = nc.connect("rtmp:/24.29.138.143:80/close");
+		
+		
+				//loader.invalidateDisplayList();
+				 //c.stop();
+				
+				//container.removeChild(loader);
+				//var junk:Object = new Object;
+				//loader.load(junk);
+				//loader = null;
+				
+			}
+			
+			private function load2():void{
+				container.addChild(loader);
+				loader.loaderContext = new LoaderContext(false, new ApplicationDomain());
+				loader.load('http://www.hulu.com/playerembed.swf?eid=aRrdJE6169uUirxL-nAXWg');		
+			}
+		]]>
+	</mx:Script>
+	<mx:Button label="try this" x="0" y="0"  click="load2()"/>
+	<mx:Button label="remove" x="100" y="0"  click="remove()"/>
+	<mx:Text id="vDebug" text="start"/>
+	
+	<mx:Panel title="container" id="container"
+		 width="600" height="400" x="10" y="10">
+		
+		<!--<mx:SWFLoader scaleContent="true"  id="loader" scaleY=".3" scaleX=".3" 
+			 width="480" height="320"/> -->
+		
+	</mx:Panel>
+	
+	
+
+		
+</mx:Application>

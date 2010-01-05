@@ -1,0 +1,83 @@
+
+
+
+
+
+
+trends
+trend_id
+order
+title
+detail
+source
+source_url
+date_created
+date_updated
+
+
+trend_videos
+trend_id
+video_id
+ext_id
+video_type
+
+DROP TABLE IF EXISTS `db_smoothtube`.`google_trends`;
+CREATE TABLE  `db_smoothtube`.`google_trends` (
+  `trend_id` int(10) unsigned NOT NULL auto_increment,
+  `order` int(10) unsigned NOT NULL,
+  `title` varchar(250) NOT NULL,
+  `detail` varchar(600) default NULL,
+  `source` varchar(250) default NULL,
+  `source_url` varchar(250) default NULL,
+  `date_created` datetime default NULL,
+  `date_updated` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `status` tinyint(3) unsigned NOT NULL default '1',
+  PRIMARY KEY  (`trend_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+ALTER TABLE `db_smoothtube`.`google_trends` ADD UNIQUE INDEX `title_unique`(`title`);
+
+CREATE TABLE `db_smoothtube`.`google_trends_videos` (
+  `trend_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `video_id` CHAR(36) DEFAULT NULL,
+  `ext_id` VARCHAR(45) DEFAULT NULL,
+  `video_type` TINYINT UNSIGNED NOT NULL DEFAULT 1,
+  `status` TINYINT UNSIGNED NOT NULL DEFAULT 1,
+  PRIMARY KEY (`trend_id`)
+)
+ENGINE = InnoDB;
+
+
+
+
+
+ALTER TABLE `db_smoothtube`.`channel_videos` ADD COLUMN `detail` VARCHAR(600) DEFAULT NULL AFTER `source`;
+-------------------
+
+
+<embed src="http://media.mtvnservices.com/mgid:hcx:content:atom.com:54de571f-eb24-4af2-8c66-79d53f66a607" type="application/x-shockwave-flash" wmode="window" width="425" height="354" allowFullscreen="true" flashvars="autoPlay=false"></embed><div style='border-top:1px solid #343f43; padding:5px 0 7px 0; text-align:center; width:426px; background:#000; color:#fff; font: bold 10px verdana, sans-serif;'><a href='http://www.atom.com/' target='_blank'><img src='http://www.atom.com/i/universal/atom_20.jpg'></a> <a href='http://www.atom.com/funny_videos/' target='_blank' style='color:#c1ddf2; margin:0 5px;'>Funny Videos</a> | <a href='http://www.atom.com/channels/category_cartoons/' target='_blank' style='color:#c1ddf2; margin:0 5px;'>Funny Cartoons</a> | <a href='http://www.atom.com/' target='_blank' style='color:#c1ddf2; margin-left:5px;'>More Video Clips</a></div>
+
+
+
+
+http://media.mtvnservices.com/video/player.swf?uri=mgid:hcx:content:atom.com:54de571f-eb24-4af2-8c66-79d53f66a607&group=entertainment&type=normal&ref=http%3a%2f%2fNone&geo=US
+
+
+
+
+http://media.mtvnservices.com/video/feed.jhtml?ref=http%3A//None&type=normal&uri=mgid%3Ahcx%3Acontent%3Aatom.com%3A54de571f-eb24-4af2-8c66-79d53f66a607&geo=US&orig=&franchise=&dist=
+
+
+http://media.mtvnservices.com/video/feed.jhtml?&uri=mgid:hcx:content:atom.com:54de571f-eb24-4af2-8c66-79d53f66a607
+
+
+
+http://a-dev.snackfeed.com/?a=shows.getVideos&show_id=2543822e-4111-102b-9839-001c23b974f2
+
+
+http://media.mtvnservices.com/video/feed.jhtml?&uri=mgid:hcx:content:atom.com:0e042caf-ae92-4321-97de-dbe236c238f0
+
+
+
+<embed src='http://www.cbs.com/thunder/swf30can10/rcpHolderCbs-3-4x3.swf' FlashVars='link=http%3A%2F%2Fwww%2Ecbs%2Ecom%2Fprimetime%2Fswingtown%2Fvideo%2Fvideo%2Ephp%3Fcid%3D717764563%26pid%3D4eHup1G3jpmk0lLeCL6qCSpq%5Fv02K0Hg%26play%3Dtrue%26cc%3D&partner=userembed&vert=Entertainment&autoPlayVid=false&releaseURL=http://release.theplatform.com/content.select?pid=4eHup1G3jpmk0lLeCL6qCSpq_v02K0Hg&name=cbsPlayer&allowScriptAccess=always&wmode=transparent&embedded=y&scale=default&salign=tl' allowFullScreen='true' width='425' height='324' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer'></embed><br/><a href='http://www.cbs.com'>Watch CBS Videos Online</a>

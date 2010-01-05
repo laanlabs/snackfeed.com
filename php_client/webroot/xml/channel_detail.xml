@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel id="xxxxxxx">
+	<title>What you might like</title>
+	<desc>A collection of shows and clips that we choose for you based on your interests and what other people like you have watched. </desc>
+	<thumb>/images/thumb_2.jpg</thumb>
+	<videos>
+		<video id="xxxxxxxxx">
+			<title>You tube</title>
+			<desc>dfsgsdfg sd fgsdfgs </desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>Atgdfsgsdfg</title>
+			<desc>desdfgsdg  sdgf dfs g dsf g sc</desc>
+			<thumb>/images/thumb_3.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>Ditle tge rtt</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_2.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>Tsdf rtge rter</title>
+			<desc>Asgsfdgsdg sdfg dg dsfg sfd gfgffgfg ffgffgf</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_2.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_1.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_2.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_3.jpg</thumb>
+		</video>
+		<video id="xxxxxxxxx">
+			<title>title</title>
+			<desc>desc</desc>
+			<thumb>/images/thumb_3.jpg</thumb>
+		</video>																		
+	</videos>
+</channel>

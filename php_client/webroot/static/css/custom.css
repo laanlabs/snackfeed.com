@@ -1,0 +1,55 @@
+.container{width:950px;margin:0 auto;}
+
+.header{text-align:center;background:#e9e700;padding:1.5714em 0 1.5714em 0;margin:0 0 1.5714em 0;}
+
+.main{float:left;margin-right:10px;width:510px;padding:0 0 0 40px;}
+.pullquote{float:left;margin:0 10px 0 -80px;width:190px;}
+.sidebar{float:left;width:310px;padding:0 40px 0 40px;}
+
+.commentMeta{float:left;margin-right:10px;width:110px;padding:0 40px 0 0;}
+.commentText{float:left;width:350px;}
+.commentForm{float:left;width:510px;}
+.commentBlurb{float:left;width:310px;padding:0 40px 0 40px;}
+
+.additional{background:#000;padding:1.5714em 0 0 0;}
+.additional h6{color:#ddd;font-weight:normal;}
+.contact{float:left;margin-right:10px;width:390px;padding:0 40px 0 40px;}
+.projects{float:left;width:390px;padding:0 40px 0 40px;}
+.footer{text-align:center;background:#111;color:#555;}
+
+img.wp-smiley{margin:0;padding:0;border:none;}
+
+
+.selected {
+  background:#ccc;
+  
+}
+
+hr.grey {
+	height: 1.5714em;
+	  margin: 0;
+  background: #151515;
+  color: #151515;
+}
+
+hr.black {
+	height: 1.5714em;
+	  margin: 0;
+  background: #000;
+  color: #000;
+}
+
+hr.footer {
+  background: #555;
+  color: #555;
+}
+
+hr.light {
+  background: #eee;
+  color: #eee;
+}
+
+
+
+
+

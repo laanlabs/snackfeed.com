@@ -1,0 +1,28 @@
+.cDropMenu{
+position:absolute;
+visibility: hidden;
+border:1px solid black;
+border-bottom-width: 0;
+font:normal 10px Verdana;
+line-height: 18px;
+z-index: 100;
+background-color: #ececec;
+width: 205px;
+}
+
+.cDropMenu a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+text-indent: 5px;
+color: #000000;
+}
+
+.cDropMenu a:hover{ /*hover background color*/
+background-color: black;
+color: white;
+}

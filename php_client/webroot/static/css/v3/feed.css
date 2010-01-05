@@ -1,0 +1,402 @@
+#feed-container {
+  
+  /*background: #f5f5f5;
+  border: 1px solid #cccccc;
+  padding-right: 25px;
+  padding-left: 25px;
+  */
+
+}
+
+
+ /* the tab bar across the feed, selects stuff like messages/shows */
+ 
+.feed-tab-holder {
+
+  /*background:  url('/static/images/v2/bk/rnd_corner.jpg') #eeeeee no-repeat;*/
+  background: #ffffff;
+  height: 20px;
+  border-bottom: 1px solid #cccccc;
+  padding: 18px 0px 0px 10px;
+  font-size: 12px;
+  color: #999999;
+
+}
+
+.feed-tab {
+  
+  background: #eeeeee;
+  padding: 4px 7px 0px 7px;
+  margin-right: 12px;
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  float: left;
+
+}
+
+.feed-tab-holder .selected {
+  color: #000000;
+  border-top: 1px solid #dddddd;
+  border-bottom: none;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #d0d0d0;
+  padding: 4px 9px 2px 9px;
+  background: #ffffff;
+  font-weight: bold;
+}
+
+
+.feed-tab a {
+  text-decoration: none;
+  color: #1030CC;
+}
+
+.feed-tab a:hover {
+  background: none;
+  text-decoration: underline;
+}
+
+.feed-tab-holder .selected a {
+  color: #000000;
+}
+
+
+
+/* Actual items in the feed */
+
+.feed-item {
+  
+	font-family:Arial,sans-serif;
+	font-size:10pt;
+	background: none;
+	margin-bottom: 20px;
+	color: #222222;
+	clear: left;
+}
+
+.feed-item .title-link {
+	color: #1030CC;
+	font-weight: bold;
+}
+
+.feed-item .active {
+	color: #1030ff;
+}
+
+
+
+.feed-item .feed-icon {
+	
+	float: left;
+	width: 16px;
+	height: 20px;
+	margin-top: 1px;
+	overflow: visible;
+}
+
+.feed-clip {
+  background: url('/static/images/icons/feed_clip_icon.png') white top right no-repeat;
+}
+
+.feed-status {
+  background: url('/static/images/icons/feed_status_icon.png') white top right no-repeat;
+}
+
+.feed-episode {
+  background: url('/static/images/icons/feed_fullep_icon.png') white top right no-repeat;
+}
+
+.feed-message {
+  background: url('/static/images/icons/feed_message_icon.png') 0px 0px  no-repeat;
+}
+
+.feed-system {
+  background: url('/static/images/icons/feed_system_icon.png') white top right no-repeat;
+}
+
+.feed-date-more {
+  background: url('/static/images/icons/feed_date_icon.png') white 7px 2px  no-repeat;
+  font-weight: bold;
+  position: relative;
+  top: 4px;
+  color: #999999;
+  padding-left: 22px;
+  position: relative;
+  float: right;
+  height: 12px;
+}
+
+.item-comment {
+  background: url('/static/images/icons/feed_comment_icon.png') white top left no-repeat;
+  padding-left: 18px;
+  margin-top: 12px;
+  color: #999999;
+  margin-left: 6px;
+  margin-bottom: 6px;
+}
+
+.feed-item .feed-container {
+	/*background: #ffffff;*/
+	margin-left: 30px;
+}
+
+.feed-item .feed-title {
+	/*background: #ffffff;*/
+	margin-bottom: 15px;
+}
+
+.feed-item .feed-body {
+	color: #999999;
+	/*background: #ffffff;*/
+}
+
+.feed-item .feed-body-item {
+	margin-left: 7px;
+	margin-top: 7px;
+}
+
+
+/* the main text in a child element, ie, video title and description */
+.item-title {
+	color: #222222;
+	font-size: 12px;
+}
+
+.item-title a {
+	color: #1010cc;
+	font-size: 12px;
+}
+
+/* the meta text in a child element, ie, '2 hours ago' */
+.item-info {
+  margin-top: 2px;
+	color: #888888;
+}
+
+.item-info a {
+	color: #8888cc;
+	margin-left: 5px;
+}
+
+.item-info .more {
+	font-style: italic;
+}
+
+.feed-item .feed-body a {
+	color: #9999cc;
+}
+
+
+/* Drop down */
+
+.drop-down-light a {
+  text-decoration: none;
+}
+
+.drop-down-light a:hover {
+  text-decoration: underline;
+}
+
+.drop-down-light ul a {
+  color: #555555;
+    line-height: 18px;
+  	text-decoration: none;
+  	display: block;
+  	width: 100%;
+   
+}
+.drop-down-light ul a:hover {
+
+  	text-decoration: none;
+   
+}
+
+#customize_dropdown {
+  
+  background: #ffffff;
+  border-top: 1px solid #aaaaaa;
+  border-right: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+  border-left: 1px solid #777777;
+  z-index: 1000;
+  position: absolute;
+  left: 0px;
+  width: 163px;
+  
+}
+
+#customize_dropdown a {
+  color: #555555;
+}
+
+#customize_button a {
+
+}
+
+#customize_button a:hover {
+  background: #999999;
+  color: #ffffff;
+}
+
+/* Extra's      Warnings? modals... */
+
+.feed-warning {
+  border: 3px solid #fdecca;
+  margin: 15px 10px 20px 15px;
+  padding: 10px;
+  background: #fff0d3;
+  color: #444444;
+  font-size: 14px;
+}
+
+.feed-warning h1 {
+  
+  font-size: 18px;
+  color: #7a4a7a;
+  
+}
+
+.feed-warning div {
+  margin-top: 8px;
+  margin-left: 5px;
+  padding: 4px;
+}
+
+
+/*  THE FEED VIEW 
+
+.feed-item {
+  
+  clear:both;
+  margin-bottom: 12px;
+  background: #ccccff;
+  border: 1px solid #aabbff;
+}
+
+.feed-item .feed-icon {
+  
+  float: left;
+  background: #aa99cc;
+  width: 20px;
+  height: 20px;
+  
+}
+
+*/
+
+
+/*  Blog version of the view   */
+
+
+#blogEntry
+{
+	
+	margin: 10px 0px 40px 0px;
+	overflow: auto;
+	background: no-repeat;
+}
+
+#blogEntryImg
+{
+  
+  position:relative;
+	float: left;
+	left: 0px;
+	width: 140px;
+	border: none;
+	
+}
+
+#blogItemWatchBtn
+{
+	position: absolute; 
+	top: 0px; left: 0px;
+	width: 100px;
+	height: 55px;
+	background-image:url('/static/images/v2/play_icon.png');
+	background-position:  center;
+	background-repeat: no-repeat;
+	opacity:.2;filter: alpha(opacity=20); -moz-opacity: 0.2;
+	
+}
+
+#blogItemWatchBtn:hover
+{
+	cursor: pointer; cursor: hand;
+	opacity:1;filter: alpha(opacity=100); -moz-opacity: 1;
+	
+}
+
+#blogEntryImg img{
+	
+	border: 4px solid #ccc;
+	width: 100px;
+	
+}
+
+.blogEntryContentCount
+{
+	color: #666;
+	font-size: 12px;
+
+}
+
+#blogEntryTextDesc .clipListDiv
+{
+	
+	margin: 0px 0px 5px 5px;
+	padding: 2px 0px 1px 1px;
+	min-height: 30px;
+	width: 90%;
+	border: none;
+	color:#000;
+}
+
+#blogEntry .clipListDiv .clipTitle
+{
+	font-size: 12px;
+	color:#000;
+}
+
+#blogEntry .clipListDiv .clipDesc
+{
+	color:#000;
+}
+
+#blogEntryTextDesc .clipListDiv img
+{
+	height: 20px;
+	border: 1px solid #acacac;
+	float: left;
+	margin-right: 4px;
+}
+
+
+
+
+#blogEntryText
+{
+	float: left;
+	width: 380px; 
+	border-bottom: 1px dotted #ccc;
+}
+
+#blogEntryText .titleA
+{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	color:#666;
+	padding-right: 20px;
+}
+
+#blogEntryTextDesc
+{
+	font-size:10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+

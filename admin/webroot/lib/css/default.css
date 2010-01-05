@@ -1,0 +1,109 @@
+
+
+
+a:link, a:visited, a:active {
+	color:#000000;
+}
+
+A:hover { color: red;  }
+
+BODY {
+	margin: 0px;
+	background-color: #ececec;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica;
+	color: #000000
+}
+
+TD {
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica;
+	color: #000000
+}
+
+th {
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica;
+	color: #000;
+}
+
+
+#winBox {
+	background:white;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	width: 350px;
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+}
+
+
+
+#winHeader {	
+	background: #000; 
+	color: #fff;
+	font-weight:bold;	
+    padding:0.2em;
+	margin-bottom: 10px;
+	}
+
+#fHeader {	
+	background: #ececec; 
+	color: #000;
+	border-bottom:1px solid #000;
+	font-weight:bold;	
+    padding:0.1em;
+	margin-bottom: 5px;
+	}
+	
+	
+
+#quickBox {
+	background:#ffffcc;
+	text-align: center;	
+	border-bottom:1px solid #000;
+	width: 99%;
+    padding:0.2em;
+}
+
+
+
+
+br { clear: left; }
+
+  
+label.nForm, input.nForm {
+	display: block;
+	width: 150px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+label.nForm  {
+	text-align: right;
+	width: 105px;
+	padding-right: 10px;
+	font-weight:bold;
+	
+}
+
+a#bSubmit {
+	margin: 20px;
+ 	color: #000000;
+	font-size:10px;
+	font-family:verdana;
+	font-weight:bold;
+	text-decoration: none;
+	border:1px solid  #000000;
+	background-color:#ececec;
+	width: 100px;
+	padding: 3px 5px;
+ }
+ 
+ a#bSubmit:hover {
+	background-color: #efefef;
+	color:#000000;
+	padding-left:4px;
+	border:1px inset #cccccc;
+}

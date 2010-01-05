@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} snfd\.tv
+RewriteRule ^(.*)$  index.php?tiny_id=$1 [L,QSA]

@@ -1,0 +1,112 @@
+<?
+
+
+$html =  $_REQUEST['_body'];
+
+
+
+/*$pattern = "#<embed(?>\s+)(?>.*?src=\"(.*?)\").*?>#ixs"; */
+
+$pattern = '#<object(.*?)\<\/object\>#is';
+
+preg_match_all($pattern, $html, $matches);
+//print_r($matches);
+echo stripslashes($matches[0][0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+die();
+$dom = new DOMDocument();
+$dom->resolveExternals = false;
+$dom->validateOnParse = true;
+$dom->preserveWhiteSpace = true;
+$dom->substituteEntities = true;
+$dom->formatOutput = false;
+@$dom->loadHTML($html);
+
+//$doc = DOMDocument::loadHTML("<html><body>Test<br></body></html>");
+
+echo $dom->getElementsByTagName('input')->item(2)->data;
+
+
+
+
+
+
+
+
+
+
+
+
+
+$_inputs = $dom->getElementsByTagName('input'); 
+
+echo $_inputs->length.'<br />';
+
+foreach($_inputs as $_input) { 
+	
+	
+	echo $_input->data;
+ $_value = $_input->getAttribute('value'); 
+ //$inputtext = $_value->nodeValue; 
+ //echo $_value . '<br>'; 
+echo "<hr/>";
+}
+
+
+
+
+
+
+$xpath = new DomXPath($dom);
+$result = $xpath->query("/html/body//input");
+
+echo $result->length.'<br />';
+
+
+foreach ($result as $node) {
+    print $node->data;
+echo "<hr/>";
+}
+
+
+die();
+
+/*
+foreach($xml->body->ul->li as $thing){
+	if($thing['class'] == 'isbn'){
+		foreach($thing->ul->li as $stuff){
+			print_r($stuff);
+
+*/
+
+
+die();
+$pattern ='#<input(.*?)\>#i';
+preg_match_all($pattern, $_content, $matches);
+print_r($matches);
+
+
+die();
+$pattern ='/\<embed.*/im';
+preg_match_all($pattern, $_id, $matches);
+//print_r($matches);
+$_id = $matches[1][0];
+
+?>

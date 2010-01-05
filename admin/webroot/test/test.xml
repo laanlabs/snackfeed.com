@@ -1,0 +1,2418 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<overdrive>
+
+<gateway name="Daily Show-Colbert" label="Daily Show-Colbert" selected="false" TTL="1">
+
+<bumpers>
+
+<interstitials rate="5">	
+
+<videoAmount>0</videoAmount>	
+
+</interstitials>
+
+</bumpers>	
+
+<content id="24446" type="ml_franchise_generic" typeid="" sponsor="false">	
+<meta>
+<image>
+
+/images/motherload/franchises/the_daily_show/headlines/12112_headline_a_ML1_logo.jpg
+
+</image>
+<headline><![CDATA[Daily Show: This Just In]]></headline>
+<subhead><![CDATA[Keep your finger on the fake pulse.]]></subhead>
+</meta>	
+
+<bumpers>
+
+</bumpers>	
+
+<playlist>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156700</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156700&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Writers Are Back]]></title>
+<shortTitle><![CDATA[Writers Are Back]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[The writers are back -- it's like Christmas morning for Jon.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>34708</views>
+
+<duration></duration>
+
+<rating>4.3333335</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156813</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156813&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Moment of Zen – Rove’s Map]]></title>
+<shortTitle><![CDATA[Moment of Zen – Rove’s Map]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Karl Rove’s hand drawn map of the Virginia primary.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>4407</views>
+
+<duration></duration>
+
+<rating>4.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_07_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156701</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156701&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Potomac Primaries]]></title>
+<shortTitle><![CDATA[Potomac Primaries]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Huckabee needs miracle and Hillary needs some IT support.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>19001</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156702</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156702&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Black History Month]]></title>
+<shortTitle><![CDATA[Black History Month]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Larry Wilmore thanks Black History Month for Obama’s success.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>19405</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_03_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156703</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156703&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Torture Talk – CIA Tapes]]></title>
+<shortTitle><![CDATA[Torture Talk – CIA Tapes]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Sen. Arlen Specter explains why destroyed CIA tapes are not worth investigating, but NFL video tapes are.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>15920</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_04_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156704</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156704&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Mark Siegel]]></title>
+<shortTitle><![CDATA[Mark Siegel]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Mark Siegel and Benazir Bhutto finished her book seven days before she was assassinated.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>12594</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_05_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156577</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156577&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert – Coffee Strike]]></title>
+<shortTitle><![CDATA[Daily/Colbert – Coffee Strike]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen is upset by the coffee-getters union strike.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>11721</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_06_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156572</videoid>	
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156572&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Real Action Heroes]]></title>
+<shortTitle><![CDATA[Real Action Heroes]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Jon discovers Mike Huckabee is a real guy and runs down career highlights from Chuck Norris.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>124517</views>
+
+<duration>3:59</duration>
+
+<rating>4.571429</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13022/ds_13022_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156573</videoid>	
+
+<syndicatable>
+true
+
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156573&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Man of Faith]]></title>
+<shortTitle><![CDATA[Man of Faith]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Jon wonders why the media harps on Mike Huckabee's Christian beliefs and debunks conspiracy theories of the governor's religious messages.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>55861</views>
+
+<duration>3:52</duration>
+
+<rating>4.6666665</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13022/ds_13022_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24446" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>156574</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156574&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Back to Work]]></title>
+<shortTitle><![CDATA[Back to Work]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Rob Riggle hails the return of the striking writers, but predicts only bad things for The Daily Show's host.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>55374</views>
+
+<duration>2:51</duration>
+
+<rating>4.6</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13022/ds_13022_03_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+</playlist>
+<videocount>10</videocount>	
+
+</content>	
+
+<content id="24229" type="Daily Show: Headlines" typeid="23913" sponsor="false">	
+<meta>
+<image>
+
+/images/motherload/franchises/the_daily_show/headlines/12113_headline_a_ML1_logo.jpg
+
+</image>
+<headline><![CDATA[Daily Show: Recent Headlines]]></headline>
+<subhead><![CDATA[Get your headlines on straight.]]></subhead>
+</meta>	
+
+<bumpers>
+
+</bumpers>	
+
+<playlist>
+
+<element vidtype="1" parentid="24229" parenttype="23913" scrubstatus="true" playVideo="false">	
+
+<videoid>105724</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=105724&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Headlines - In Charm's Way]]></title>
+<shortTitle><![CDATA[In Charm's Way]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[MIT's new charm school aims to teach their students how to conceal their boners while in Radio Shack.]]></description>
+
+<airdate>Thu, 2/03/2000</airdate>
+<startdate>2/03</startdate>
+
+<views>27711</views>
+
+<duration>2:22</duration>
+
+<rating>4.9545455</rating>
+
+<imageurl>/images/shows/tds/videos/season_04/episode_093/ds_04093_03_nws_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Thu, 2/03/2000</premierdate>
+<datetimeadded>Tue, 12/12/2102</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24229" parenttype="23913" scrubstatus="true" playVideo="false">	
+
+<videoid>156703</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156703&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Torture Talk – CIA Tapes]]></title>
+<shortTitle><![CDATA[Torture Talk – CIA Tapes]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Sen. Arlen Specter explains why destroyed CIA tapes are not worth investigating, but NFL video tapes are.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>16203</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_04_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24229" parenttype="23913" scrubstatus="true" playVideo="false">	
+
+<videoid>156701</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156701&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Potomac Primaries]]></title>
+<shortTitle><![CDATA[Potomac Primaries]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Huckabee needs miracle and Hillary needs some IT support.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>19001</views>
+
+<duration></duration>
+
+<rating>5.0</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24229" parenttype="23913" scrubstatus="true" playVideo="false">	
+
+<videoid>156573</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156573&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Man of Faith]]></title>
+<shortTitle><![CDATA[Man of Faith]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Jon wonders why the media harps on Mike Huckabee's Christian beliefs and debunks conspiracy theories of the governor's religious messages.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>55861</views>
+
+<duration>3:52</duration>
+
+<rating>4.6666665</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13022/ds_13022_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24229" parenttype="23913" scrubstatus="true" playVideo="false">	
+
+<videoid>156700</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156700&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Writers Are Back]]></title>
+<shortTitle><![CDATA[Writers Are Back]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[The writers are back -- it's like Christmas morning for Jon.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>34708</views>
+
+<duration></duration>
+
+<rating>4.3333335</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13023/ds_13023_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24229" parenttype="23913" scrubstatus="true" playVideo="false">	
+
+<videoid>156572</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156572&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Real Action Heroes]]></title>
+<shortTitle><![CDATA[Real Action Heroes]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Jon discovers Mike Huckabee is a real guy and runs down career highlights from Chuck Norris.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>124517</views>
+
+<duration>3:59</duration>
+
+<rating>4.571429</rating>
+
+<imageurl>/images/shows/tds/videos/season_13/13022/ds_13022_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sun, 1/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+</playlist>
+<videocount>6</videocount>	
+
+</content>	
+
+<content id="90006" type="ml_franchise_generic" typeid="" sponsor="false">	
+<meta>
+<image>
+
+/images/motherload/franchises/the_daily_show/zen/zen_monkey_ml1_logo.jpg
+
+</image>
+<headline><![CDATA[Daily Show/Colbert Report: Crossing Over]]></headline>
+<subhead><![CDATA[When Jon hands the baton to Stephen, anything can happen.]]></subhead>
+</meta>	
+
+<bumpers>
+
+</bumpers>	
+
+<playlist>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>102971</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=102971&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Cry Baby]]></title>
+<shortTitle><![CDATA[Cry Baby]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen is upset by the sound of a crying baby in his studio audience.]]></description>
+
+<airdate>Wed, 9/19/2007</airdate>
+<startdate>9/20</startdate>
+
+<views>105055</views>
+
+<duration>0:59</duration>
+
+<rating>4.663636</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/colbert_12117_M1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 9/19/2007</premierdate>
+<datetimeadded>Wed, 10/20/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>102537</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=102537&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - She-male Emmy]]></title>
+<shortTitle><![CDATA[She-male Emmy]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen won't drop his halter-top plans to present an Emmy for Best She-Male in a comedy series.]]></description>
+
+<airdate>Thu, 9/13/2007</airdate>
+<startdate>9/14</startdate>
+
+<views>143680</views>
+
+<duration>:49</duration>
+
+<rating>4.704762</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/colbert_12115_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Thu, 9/13/2007</premierdate>
+<datetimeadded>Thu, 10/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>102520</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=102520&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Donzi ZR]]></title>
+<shortTitle><![CDATA[Donzi ZR]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen spent last weekend riding up and down the coast in his new speedboat.]]></description>
+
+<airdate>Mon, 9/10/2007</airdate>
+<startdate>9/11</startdate>
+
+<views>86720</views>
+
+<duration>:43</duration>
+
+<rating>4.677419</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/colbert_12112_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 9/10/2007</premierdate>
+<datetimeadded>Mon, 10/11/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>91997</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=91997&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Vacation]]></title>
+<shortTitle><![CDATA[Vacation]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen needs a vacation too.]]></description>
+
+<airdate>Thu, 8/23/2007</airdate>
+<startdate>8/24</startdate>
+
+<views>189468</views>
+
+<duration>:20</duration>
+
+<rating>4.6744184</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12111_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Thu, 8/23/2007</premierdate>
+<datetimeadded>Fri, 9/24/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>91890</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=91890&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Silent Blunder]]></title>
+<shortTitle><![CDATA[Silent Blunder]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Not to be outdone, Stephen is doing his show from Afghanistan this week.]]></description>
+
+<airdate>Mon, 8/20/2007</airdate>
+<startdate>8/21</startdate>
+
+<views>92378</views>
+
+<duration>1:00</duration>
+
+<rating>4.755319</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12108_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 8/20/2007</premierdate>
+<datetimeadded>Tue, 9/21/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>91552</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=91552&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - YouTube Trial]]></title>
+<shortTitle><![CDATA[YouTube Trial]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen prepares Jon for his upcoming deposition for the YouTube lawsuit.]]></description>
+
+<airdate>Thu, 8/16/2007</airdate>
+<startdate>8/17</startdate>
+
+<views>136464</views>
+
+<duration></duration>
+
+<rating>4.7636366</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12107_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Thu, 8/16/2007</premierdate>
+<datetimeadded>Fri, 9/17/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>91536</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=91536&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Rove]]></title>
+<shortTitle><![CDATA[Rove]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Karl Rove has a new job with the Colbert Report starting September 1.]]></description>
+
+<airdate>Tue, 8/14/2007</airdate>
+<startdate>8/15</startdate>
+
+<views>88624</views>
+
+<duration>1:00</duration>
+
+<rating>4.635294</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12105_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 8/14/2007</premierdate>
+<datetimeadded>Wed, 9/15/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>90961</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=90961&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Anagrams]]></title>
+<shortTitle><![CDATA[Anagrams]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen creates anagrams using the presidential candidates’ (and hosts') names.]]></description>
+
+<airdate>Thu, 8/09/2007</airdate>
+<startdate>8/10</startdate>
+
+<views>79741</views>
+
+<duration>1:12</duration>
+
+<rating>4.6386557</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12103_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Thu, 8/09/2007</premierdate>
+<datetimeadded>Fri, 9/10/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>90789</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=90789&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Epic Poem]]></title>
+<shortTitle><![CDATA[Epic Poem]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen wrote a Homeric epic poem for tonight's toss.]]></description>
+
+<airdate>Wed, 8/01/2007</airdate>
+<startdate>8/02</startdate>
+
+<views>92093</views>
+
+<duration>:32</duration>
+
+<rating>4.259259</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12099_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 8/01/2007</premierdate>
+<datetimeadded>Thu, 9/02/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>90529</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=90529&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Sonnet]]></title>
+<shortTitle><![CDATA[Sonnet]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen recites a sonnet about his upcoming show.]]></description>
+
+<airdate>Mon, 7/30/2007</airdate>
+<startdate>7/31</startdate>
+
+<views>75981</views>
+
+<duration>:52</duration>
+
+<rating>4.6833334</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12097_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 7/30/2007</premierdate>
+<datetimeadded>Tue, 8/31/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>90484</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=90484&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Cottlesworth]]></title>
+<shortTitle><![CDATA[Cottlesworth]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen apologizes to Josephus Cottlesworth for flubbing his well-crafted tosses to Jon.]]></description>
+
+<airdate>Tue, 7/24/2007</airdate>
+<startdate>7/26</startdate>
+
+<views>161321</views>
+
+<duration>1:03</duration>
+
+<rating>4.52809</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12095_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 7/24/2007</premierdate>
+<datetimeadded>Thu, 8/26/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>90328</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=90328&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - So Close]]></title>
+<shortTitle><![CDATA[So Close]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen almost makes it to the end of his regular Daily Show check-in.]]></description>
+
+<airdate>Tue, 7/24/2007</airdate>
+<startdate>7/25</startdate>
+
+<views>94363</views>
+
+<duration>:48</duration>
+
+<rating>4.919643</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/colbert_12094_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 7/24/2007</premierdate>
+<datetimeadded>Wed, 8/25/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="90006" parenttype="" scrubstatus="true" playVideo="false">	
+
+<videoid>89999</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=89999&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Daily Show: Daily/Colbert - Billy Goes Potty]]></title>
+<shortTitle><![CDATA[Billy Goes Potty]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen has some encouraging words for Billy after he made a pee-pee.]]></description>
+
+<airdate>Thu, 7/19/2007</airdate>
+<startdate>7/20</startdate>
+
+<views>136644</views>
+
+<duration>0:55</duration>
+
+<rating>4.694737</rating>
+
+<imageurl>/images/shows/tds/videos/colbert/12092_colbert_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Thu, 7/19/2007</premierdate>
+<datetimeadded>Fri, 8/20/2077</datetimeadded>
+
+<tuneIn>M - Th 11p / 10c</tuneIn>
+<tuneInLink>/index.jhtml</tuneInLink>
+<relatedshow>The Daily Show</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+</playlist>
+<videocount>13</videocount>	
+
+</content>	
+
+<content id="24445" type="The Colbert Report" typeid="23842" sponsor="false">	
+<meta>
+<image>
+
+/images/motherload/franchises/colbert_report/season3/3113_intro_ml1_logo.jpg
+
+</image>
+<headline><![CDATA[Colbert Report: Fresh Stephen]]></headline>
+<subhead><![CDATA[Time for a truth injection!]]></subhead>
+</meta>	
+
+<bumpers>
+
+</bumpers>	
+
+<playlist>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156549</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156549&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Potomassacre]]></title>
+<shortTitle><![CDATA[Potomassacre]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Barack Obama wins with a message of hope - Stephen hopes he can get through the script.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>15235</views>
+
+<duration></duration>
+
+<rating>4.866667</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04023_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156550</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156550&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Writers Strike Over]]></title>
+<shortTitle><![CDATA[Writers Strike Over]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen personally welcomes back each of his writers.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>13749</views>
+
+<duration></duration>
+
+<rating>4.888889</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04023_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156551</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156551&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: David Gracer]]></title>
+<shortTitle><![CDATA[David Gracer]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[David Gracer cooks up a delicious plate of insects and invites Stephen join in the feast.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>7842</views>
+
+<duration></duration>
+
+<rating>4.7272725</rating>
+
+<imageurl>/images/shows/colbert_report/generics/indecision/2103_cease_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156552</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156552&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Fallback Position-Astrophysicist]]></title>
+<shortTitle><![CDATA[Fallback Position-Astrophysicist]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen visits Neil deGrasse Tyson to learn how to be an astrophysicist.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>6805</views>
+
+<duration></duration>
+
+<rating>4.866667</rating>
+
+<imageurl>/images/shows/colbert_report/generics/morning/generic1_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156553</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156553&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Richard Thompson Ford]]></title>
+<shortTitle><![CDATA[Richard Thompson Ford]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Richard Thompson Ford believes the Clintons are playing the race card against Obama.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>6089</views>
+
+<duration></duration>
+
+<rating>4.2941175</rating>
+
+<imageurl>/images/shows/colbert_report/generics/morning/generic5_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156308</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156308&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Huckabee's Obligation]]></title>
+<shortTitle><![CDATA[Huckabee's Obligation]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Mike Huckabee says he is obligated to pick Stephen as his running mate.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>65996</views>
+
+<duration>05:25</duration>
+
+<rating>4.7586207</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156307</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156307&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Gov. Eliot Spitzer]]></title>
+<shortTitle><![CDATA[Gov. Eliot Spitzer]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Governor Eliot Spitzer is a superdelegate and agrees to help Stephen become a superdelegate too.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>28474</views>
+
+<duration>05:11</duration>
+
+<rating>4.785714</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156306</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156306&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Rep. Eleanor Holmes Norton]]></title>
+<shortTitle><![CDATA[Rep. Eleanor Holmes Norton]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Superdelegate Eleanor Holmes Norton tells Stephen that the days of smoke-filled rooms are over.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>24603</views>
+
+<duration>04:37</duration>
+
+<rating>4.7884617</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_03_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156305</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156305&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Interview - Lisa Randall]]></title>
+<shortTitle><![CDATA[Interview - Lisa Randall]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Lisa Randall tells Stephen that there are other dimensions that have never even heard of him.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>24403</views>
+
+<duration>04:35</duration>
+
+<rating>4.45</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_04_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156274</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156274&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Obama Wins a Grammy]]></title>
+<shortTitle><![CDATA[Obama Wins a Grammy]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Barack Obama won a Grammy -- essential hardware for a candidate these days.]]></description>
+
+<airdate>Mon, 2/11/2008</airdate>
+<startdate>2/12</startdate>
+
+<views>66571</views>
+
+<duration>02:40</duration>
+
+<rating>4.78125</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04021_01_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 2/11/2008</premierdate>
+<datetimeadded>Fri, 2/12/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156275</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156275&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Goodbye Mitt]]></title>
+<shortTitle><![CDATA[Goodbye Mitt]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen bids farewell to Mitt Romney's presidential campaign.]]></description>
+
+<airdate>Mon, 2/11/2008</airdate>
+<startdate>2/12</startdate>
+
+<views>32662</views>
+
+<duration>02:39</duration>
+
+<rating>4.742424</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04021_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 2/11/2008</premierdate>
+<datetimeadded>Fri, 2/12/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156276</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156276&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Aubrey de Grey]]></title>
+<shortTitle><![CDATA[Aubrey de Grey]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Professor Aubrey de Grey researches a way to make John McCain younger.]]></description>
+
+<airdate>Mon, 2/11/2008</airdate>
+<startdate>2/12</startdate>
+
+<views>41438</views>
+
+<duration>03:47</duration>
+
+<rating>4.6923075</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04021_03_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 2/11/2008</premierdate>
+<datetimeadded>Fri, 2/12/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156277</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156277&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Portrait Check-In]]></title>
+<shortTitle><![CDATA[Portrait Check-In]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen checks in with Marc Pachter of the National Portrait Gallery to see how his portrait is doing.]]></description>
+
+<airdate>Mon, 2/11/2008</airdate>
+<startdate>2/12</startdate>
+
+<views>25788</views>
+
+<duration>04:48</duration>
+
+<rating>4.733333</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04021_04_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 2/11/2008</premierdate>
+<datetimeadded>Fri, 2/12/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>149094</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=149094&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Interview - Philip Zimbardo]]></title>
+<shortTitle><![CDATA[Interview - Philip Zimbardo]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen gives Philip Zimbardo a lesson on heaven, hell and Lucifer.]]></description>
+
+<airdate>Mon, 2/11/2008</airdate>
+<startdate>2/12</startdate>
+
+<views>31669</views>
+
+<duration>05:23</duration>
+
+<rating>4.76</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04021_05_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 2/11/2008</premierdate>
+<datetimeadded>Fri, 2/12/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="24445" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156169</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156169&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report Recap - Week of 2/4/08]]></title>
+<shortTitle><![CDATA[Recap - Week of 2/4/08]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Highlights from the world of Stephen and his guests.]]></description>
+
+<airdate></airdate>
+<startdate>2/08</startdate>
+
+<views>90988</views>
+
+<duration>03:43</duration>
+
+<rating>4.72</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/Weekly%20Highlights/cr_weekly_020408_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate></premierdate>
+<datetimeadded>Mon, 2/08/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+</playlist>
+<videocount>15</videocount>	
+
+</content>	
+
+<content id="87443" type="The Colbert Report" typeid="23842" sponsor="false">	
+<meta>
+<image>
+
+/images/motherload/franchises/colbert_report/season3/3113_guest_a_ml1_logo.jpg
+
+</image>
+<headline><![CDATA[Colbert Report: Interviews]]></headline>
+<subhead><![CDATA[Check out the people Stephen tries to nail.]]></subhead>
+</meta>	
+
+<bumpers>
+
+</bumpers>	
+
+<playlist>
+
+<element vidtype="1" parentid="87443" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156553</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156553&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Richard Thompson Ford]]></title>
+<shortTitle><![CDATA[Richard Thompson Ford]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Richard Thompson Ford believes the Clintons are playing the race card against Obama.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>6164</views>
+
+<duration></duration>
+
+<rating>4.2941175</rating>
+
+<imageurl>/images/shows/colbert_report/generics/morning/generic5_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="87443" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156551</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156551&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: David Gracer]]></title>
+<shortTitle><![CDATA[David Gracer]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[David Gracer cooks up a delicious plate of insects and invites Stephen join in the feast.]]></description>
+
+<airdate>Wed, 2/13/2008</airdate>
+<startdate>2/14</startdate>
+
+<views>7959</views>
+
+<duration></duration>
+
+<rating>4.7272725</rating>
+
+<imageurl>/images/shows/colbert_report/generics/indecision/2103_cease_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 2/13/2008</premierdate>
+<datetimeadded>Sun, 2/14/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="87443" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156305</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156305&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Interview - Lisa Randall]]></title>
+<shortTitle><![CDATA[Interview - Lisa Randall]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Lisa Randall tells Stephen that there are other dimensions that have never even heard of him.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>24425</views>
+
+<duration>04:35</duration>
+
+<rating>4.45</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_04_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="87443" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156306</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156306&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Rep. Eleanor Holmes Norton]]></title>
+<shortTitle><![CDATA[Rep. Eleanor Holmes Norton]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Superdelegate Eleanor Holmes Norton tells Stephen that the days of smoke-filled rooms are over.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>24618</views>
+
+<duration>04:37</duration>
+
+<rating>4.7884617</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_03_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="87443" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>156307</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=156307&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: Gov. Eliot Spitzer]]></title>
+<shortTitle><![CDATA[Gov. Eliot Spitzer]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Governor Eliot Spitzer is a superdelegate and agrees to help Stephen become a superdelegate too.]]></description>
+
+<airdate>Tue, 2/12/2008</airdate>
+<startdate>2/13</startdate>
+
+<views>28474</views>
+
+<duration>05:11</duration>
+
+<rating>4.785714</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04022_02_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Tue, 2/12/2008</premierdate>
+<datetimeadded>Sat, 2/13/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+</playlist>
+<videocount>5</videocount>	
+
+</content>	
+
+<content id="70004" type="The Colbert Report" typeid="23842" sponsor="false">	
+<meta>
+<image>
+
+/images/motherload/franchises/colbert_report/season3/3113_word_ml1_logo.jpg
+
+</image>
+<headline><![CDATA[Colbert Report: The Word]]></headline>
+<subhead><![CDATA[When the word comes from Stephen Colbert, you'd best pay attention.]]></subhead>
+</meta>	
+
+<bumpers>
+
+</bumpers>	
+
+<playlist>
+
+<element vidtype="1" parentid="70004" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>147144</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=147144&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report: The Word: (...)]]></title>
+<shortTitle><![CDATA[The Word: (...)]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen looks back on his strong anti-union history.]]></description>
+
+<airdate>Mon, 1/07/2008</airdate>
+<startdate>1/08</startdate>
+
+<views>78489</views>
+
+<duration>03:09</duration>
+
+<rating>4.8080807</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season4/cr_04001_05_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 1/07/2008</premierdate>
+<datetimeadded>Fri, 1/08/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="70004" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>127602</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=127602&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report - Job Description]]></title>
+<shortTitle><![CDATA[Job Description]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen makes it clear that he is not running for president -- he is running for President Bush.]]></description>
+
+<airdate>Wed, 10/31/2007</airdate>
+<startdate>11/01</startdate>
+
+<views>99518</views>
+
+<duration>4:56</duration>
+
+<rating>4.6811595</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season3/3137_word_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 10/31/2007</premierdate>
+<datetimeadded>Wed, 9/15/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="70004" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>123820</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=123820&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report - Absinthetinence]]></title>
+<shortTitle><![CDATA[Absinthetinence]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Stephen asks the youth of America to join him in taking the Absinthe Abstinence Pledge.]]></description>
+
+<airdate>Mon, 10/29/2007</airdate>
+<startdate>10/30</startdate>
+
+<views>90563</views>
+
+<duration>3:33</duration>
+
+<rating>4.881579</rating>
+
+<imageurl>/images/shows/colbert_report/videos/season3/3135_word_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 10/29/2007</premierdate>
+<datetimeadded>Wed, 9/15/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="70004" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>111473</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=111473&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report - Enviro-medal Disaster]]></title>
+<shortTitle><![CDATA[Enviro-medal Disaster]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[Al Gore isn’t the only one that deserves an award. Don’t our children deserve a few?]]></description>
+
+<airdate>Mon, 10/15/2007</airdate>
+<startdate>10/16</startdate>
+
+<views>94065</views>
+
+<duration>5:52</duration>
+
+<rating>4.6975307</rating>
+
+<imageurl>/images/shows/colbert_report/videos/word/3131_word_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Mon, 10/15/2007</premierdate>
+<datetimeadded>Wed, 9/15/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+<element vidtype="1" parentid="70004" parenttype="23842" scrubstatus="true" playVideo="false">	
+
+<videoid>111132</videoid>	
+
+
+<syndicatable>
+true
+</syndicatable>
+<uncensored>false</uncensored>
+
+<videourl>
+<![CDATA[/motherload/xml/flv_xml_gen.jhtml?ml_video=111132&hiLoPref=hi]]>
+</videourl>
+<title><![CDATA[Colbert Report - Americon Dream]]></title>
+<shortTitle><![CDATA[Americon Dream]]></shortTitle>
+<hpTitle><![CDATA[]]></hpTitle>
+<description><![CDATA[To achieve an ordered society, we have to eliminate the root cause of crime -- all the people.]]></description>
+
+<airdate>Wed, 10/10/2007</airdate>
+<startdate>10/11</startdate>
+
+<views>100109</views>
+
+<duration>4:46</duration>
+
+<rating>4.692771</rating>
+
+<imageurl>/images/shows/colbert_report/videos/word/3129_word_m1.jpg</imageurl>
+
+<contentid></contentid>
+<premierdate>Wed, 10/10/2007</premierdate>
+<datetimeadded>Wed, 9/15/2077</datetimeadded>
+
+<tuneIn>M - Th 11:30p / 10:30c</tuneIn>
+<tuneInLink>/shows/the_colbert_report/index.jhtml</tuneInLink>
+<relatedshow>The Colbert Report</relatedshow>
+<showtype>broadcast</showtype>
+
+<author>ComedyCentral.com</author>
+
+</element>
+
+</playlist>
+<videocount>5</videocount>	
+
+</content>	
+
+</gateway>	
+
+</overdrive>
